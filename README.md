@@ -90,6 +90,8 @@ Codex local plugin metadata is included for compatibility. A public Codex market
 
 ## Try It Now
 
+![Fresh Claude Code install](assets/claude-plugin-install-fresh.png)
+
 Paste this into your MCP host after installing:
 
 ```text

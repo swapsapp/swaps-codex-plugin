@@ -42,7 +42,8 @@
     "composerIcon": "./assets/swaps-mcp-icon.svg",
     "logo": "./assets/swaps-mcp-icon.svg",
     "screenshots": [
-      "./assets/swaps-mcp-quote-smoke.png"
+      "./assets/swaps-mcp-quote-smoke.png",
+      "./assets/claude-plugin-install-fresh.png"
     ]
   }
 }

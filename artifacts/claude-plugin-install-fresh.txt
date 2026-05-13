@@ -1,0 +1,29 @@
+$ HOME=/private/tmp/claude-swaps-plugin-fresh claude plugin marketplace add swapsapp/swaps-codex-plugin
+Adding marketplace...
+Cloning via SSH: git@github.com:swapsapp/swaps-codex-plugin.git
+Refreshing marketplace cache...
+Cloning repository: git@github.com:swapsapp/swaps-codex-plugin.git
+Clone complete, validating marketplace...
+Cleaning up old marketplace cache...
+✔ Successfully added marketplace: swaps-plugins
+
+$ HOME=/private/tmp/claude-swaps-plugin-fresh claude plugin install swaps-mcp@swaps-plugins
+Installing plugin "swaps-mcp@swaps-plugins"...
+✔ Successfully installed plugin: swaps-mcp@swaps-plugins (scope: user)
+
+$ HOME=/private/tmp/claude-swaps-plugin-fresh claude plugin list --json
+[
+  {
+    "id": "swaps-mcp@swaps-plugins",
+    "version": "1.0.0",
+    "scope": "user",
+    "enabled": true,
+    "mcpServers": {
+      "swaps": {
+        "command": "npx",
+        "args": ["-y", "@agent.swaps/mcp-server@1.0.1"],
+        "env": { "SWAPS_MCP_VERSION": "1.0.1" }
+      }
+    }
+  }
+]
