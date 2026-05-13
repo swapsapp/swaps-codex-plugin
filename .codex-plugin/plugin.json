@@ -1,0 +1,48 @@
+{
+  "name": "swaps-mcp",
+  "version": "1.0.0",
+  "description": "Codex plugin wrapper for the public Swaps MCP server.",
+  "author": {
+    "name": "Swaps",
+    "email": "support@swaps.app",
+    "url": "https://www.swaps.app"
+  },
+  "homepage": "https://www.swaps.app/developers/skills/mcp-server",
+  "repository": "https://github.com/swapsapp/swaps-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "swaps",
+    "mcp",
+    "crypto",
+    "onramp",
+    "offramp",
+    "agent"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Swaps MCP",
+    "shortDescription": "Live Swaps provider quotes and routing truth.",
+    "longDescription": "Adds the public Swaps MCP server so agents can quote crypto purchases, inspect provider taxonomy, explain provider choices, and reason from live Swaps agent surfaces instead of stale assumptions.",
+    "developerName": "Swaps",
+    "category": "Productivity",
+    "capabilities": [
+      "Tools",
+      "Read"
+    ],
+    "websiteURL": "https://www.swaps.app",
+    "privacyPolicyURL": "https://www.swaps.app/privacy",
+    "termsOfServiceURL": "https://www.swaps.app/terms",
+    "defaultPrompt": [
+      "Quote 100 USD to BTC in the US.",
+      "Explain this Swaps quote choice.",
+      "Show providers for a corridor."
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/swaps-mcp-icon.svg",
+    "logo": "./assets/swaps-mcp-icon.svg",
+    "screenshots": [
+      "./assets/swaps-mcp-quote-smoke.png"
+    ]
+  }
+}

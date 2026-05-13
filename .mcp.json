@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "swaps": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@agent.swaps/mcp-server@1.0.1"
+      ],
+      "env": {
+        "SWAPS_MCP_VERSION": "1.0.1"
+      }
+    }
+  }
+}

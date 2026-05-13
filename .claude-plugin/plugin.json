@@ -1,0 +1,29 @@
+{
+  "name": "swaps-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Swaps, the agent-native crypto on-ramp aggregator.",
+  "author": {
+    "name": "Swaps",
+    "email": "support@swaps.app"
+  },
+  "homepage": "https://www.swaps.app/developers/skills/mcp-server",
+  "repository": "https://github.com/swapsapp/swaps-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "crypto",
+    "on-ramp",
+    "fintech",
+    "aggregator",
+    "agent",
+    "claude",
+    "anthropic",
+    "cursor",
+    "codex"
+  ],
+  "categories": [
+    "ai-agents",
+    "crypto",
+    "finance"
+  ]
+}

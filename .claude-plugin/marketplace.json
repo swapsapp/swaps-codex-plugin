@@ -1,0 +1,41 @@
+{
+  "name": "swaps-plugins",
+  "description": "Swaps plugins for agent-native crypto quotes, routing truth, and provider taxonomy.",
+  "version": "1.0.0",
+  "metadata": {
+    "description": "Swaps plugins for agent-native crypto quotes, routing truth, and provider taxonomy."
+  },
+  "owner": {
+    "name": "Swaps",
+    "email": "support@swaps.app",
+    "url": "https://www.swaps.app"
+  },
+  "plugins": [
+    {
+      "name": "swaps-mcp",
+      "source": "./",
+      "description": "Model Context Protocol server for Swaps, the agent-native crypto on-ramp aggregator.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Swaps",
+        "email": "support@swaps.app"
+      },
+      "homepage": "https://www.swaps.app/developers/skills/mcp-server",
+      "repository": "https://github.com/swapsapp/swaps-codex-plugin",
+      "license": "MIT",
+      "category": "Finance",
+      "tags": [
+        "mcp",
+        "crypto",
+        "on-ramp",
+        "fintech",
+        "aggregator",
+        "agent",
+        "claude",
+        "anthropic",
+        "cursor",
+        "codex"
+      ]
+    }
+  ]
+}

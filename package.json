@@ -1,0 +1,13 @@
+{
+  "name": "swaps-codex-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketplace wrapper for @agent.swaps/mcp-server.",
+  "type": "module",
+  "scripts": {
+    "smoke": "node tests/smoke.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
